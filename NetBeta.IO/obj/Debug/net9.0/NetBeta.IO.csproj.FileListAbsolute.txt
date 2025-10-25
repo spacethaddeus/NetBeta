@@ -1,0 +1,11 @@
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/bin/Debug/net9.0/NetBeta.IO.deps.json
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/bin/Debug/net9.0/NetBeta.IO.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/bin/Debug/net9.0/NetBeta.IO.pdb
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.AssemblyInfoInputs.cache
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.AssemblyInfo.cs
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.csproj.CoreCompileInputs.cache
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/refint/NetBeta.IO.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.pdb
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/ref/NetBeta.IO.dll

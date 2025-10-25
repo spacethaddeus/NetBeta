@@ -1,0 +1,15 @@
+/Users/tadwalter/Documents/NetBeta/NetBeta/bin/Debug/net9.0/NetBeta.deps.json
+/Users/tadwalter/Documents/NetBeta/NetBeta/bin/Debug/net9.0/NetBeta.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta/bin/Debug/net9.0/NetBeta.pdb
+/Users/tadwalter/Documents/NetBeta/NetBeta/bin/Debug/net9.0/NetBeta.IO.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta/bin/Debug/net9.0/NetBeta.IO.pdb
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.csproj.AssemblyReference.cache
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.AssemblyInfoInputs.cache
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.AssemblyInfo.cs
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.csproj.CoreCompileInputs.cache
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.csproj.Up2Date
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/refint/NetBeta.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.pdb
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/ref/NetBeta.dll

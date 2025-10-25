@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "NetBeta/1.0.0": {
+        "dependencies": {
+          "NetBeta.IO": "1.0.0"
+        },
+        "runtime": {
+          "NetBeta.dll": {}
+        }
+      },
+      "NetBeta.IO/1.0.0": {
+        "runtime": {
+          "NetBeta.IO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetBeta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetBeta.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
