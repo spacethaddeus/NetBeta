@@ -13,13 +13,12 @@ public class Server
     string ipAddress;
     int Port;
 
-    Socket tcpListener;
+    TcpListener tcpListener;
 
     public Server(string ipAddress, int Port)
     {
         //new(IPAddress.Parse(ipAddress), Port);
-        tcpListener = new(IPAddress.Parse(ipAddress).AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-        tcpListener.Bind(IPEndPoint.Parse($"{ipAddress}:{Port}"));
+        tcpListener = new(IPAddress.Parse(ipAddress), Port);
         this.ipAddress = ipAddress;
         this.Port = Port;
 
@@ -28,7 +27,7 @@ public class Server
 
     public async Task StartServer()
     {
-        tcpListener.Listen();
+        tcpListener.Start();
         Console.WriteLine($"NetBeta Server started on {ipAddress}:{Port}");
         _ = Task.Run(() => Tick());
         await Receive();
@@ -38,7 +37,7 @@ public class Server
     {
         while (true)
         {
-            var Client = await tcpListener.AcceptAsync();
+            var Client = await tcpListener.AcceptTcpClientAsync();
 
             //Run this as a seperate task so we can continue
             //Getting clients.
@@ -63,12 +62,15 @@ public class Server
         {
             if(serverPlayer != player)
             {
+                if (!serverPlayer.Connected)
+                    return;
+                
                 serverPlayer.SendQueue.Add(packet);
             }
         }
     }
 
-    private async Task AcceptClient(Socket tcpClient)
+    private async Task AcceptClient(TcpClient tcpClient)
     {
         ServerPlayer serverPlayer = new(tcpClient, this);
         serverPlayer.SetEntityID(Interlocked.Increment(ref world.EntityCounter));
@@ -108,7 +110,7 @@ public class Server
         while (true)
         {
             Thread.Sleep(50);
-            await TimeTick();
+            //await TimeTick();
             //await Send();
             //await PlayerReceive();
         }

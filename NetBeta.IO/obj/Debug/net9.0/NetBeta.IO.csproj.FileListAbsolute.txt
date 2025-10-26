@@ -9,3 +9,4 @@
 /Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/refint/NetBeta.IO.dll
 /Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.pdb
 /Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/ref/NetBeta.IO.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta.IO/obj/Debug/net9.0/NetBeta.IO.sourcelink.json

@@ -3,19 +3,16 @@ using NetBeta.IO.Util;
 
 namespace NetBeta.Net.Packets;
 
-public class Animation() : Packet
+public class EntityStatus(int EntityID, byte Status) : Packet
 {
-    public int EntityID = 0;
-    public byte Animate = 0;
     public override byte GetID()
     {
-        return (byte)PacketTypes.Animation;
+        return (byte)PacketTypes.EntityStatus;
     }
 
     public override void Load(BinaryReader reader)
     {
-        EntityID = Converter.GetInt(reader);
-        Animate = reader.ReadByte();
+        throw new NotImplementedException();
     }
 
     public override byte[] Send()
@@ -25,7 +22,7 @@ public class Animation() : Packet
 
         writer.Write(GetID());
         writer.Write(Converter.WriteInt(EntityID));
-        writer.Write(Animate);
+        writer.Write(Status);
 
         return memoryStream.ToArray();
     }

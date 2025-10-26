@@ -1,1 +1,7 @@
 /.DS_Store
+/NetBeta/bin
+/NetBeta.CLI/bin
+/NetBeta.IO/bin
+/NetBeta/obj
+/NetBeta.CLI/obj
+/NetBeta.IO/obj

@@ -13,3 +13,4 @@
 /Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/refint/NetBeta.dll
 /Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.pdb
 /Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/ref/NetBeta.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta/obj/Debug/net9.0/NetBeta.sourcelink.json

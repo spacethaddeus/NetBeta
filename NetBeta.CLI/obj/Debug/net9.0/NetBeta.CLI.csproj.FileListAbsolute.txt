@@ -18,3 +18,4 @@
 /Users/tadwalter/Documents/NetBeta/NetBeta.CLI/obj/Debug/net9.0/NetBeta.CLI.pdb
 /Users/tadwalter/Documents/NetBeta/NetBeta.CLI/obj/Debug/net9.0/NetBeta.CLI.genruntimeconfig.cache
 /Users/tadwalter/Documents/NetBeta/NetBeta.CLI/obj/Debug/net9.0/ref/NetBeta.CLI.dll
+/Users/tadwalter/Documents/NetBeta/NetBeta.CLI/obj/Debug/net9.0/NetBeta.CLI.sourcelink.json
